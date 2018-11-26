@@ -128,5 +128,5 @@ def play(board)
     turn(board)
   end
   if(draw?) then puts "Cat's Game!" end
-  
+
  end
