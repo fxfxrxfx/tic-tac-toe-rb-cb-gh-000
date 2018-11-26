@@ -127,4 +127,5 @@ def play(board)
   while(!over?(board)) do
     turn(board)
   end
+  if(draw?) do puts "Cat's Game!" end
  end
