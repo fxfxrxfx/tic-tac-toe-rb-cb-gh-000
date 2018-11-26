@@ -124,9 +124,6 @@ def turn(board)
 end
 
 def play(board)
-   iter = 0
-   while iter < 9 do
-     turn(board)
-     iter = iter + 1
-   end
+  while(!over?(board)) do
+  end
  end
